@@ -12,11 +12,7 @@ with open('day 1/data.txt', 'r') as file:
         rightCodes.append(int(file.read(5)))
         file.read(1)
 
-    #print(content)
     file.close()
-
-#print(leftCodes)
-#print(rightCodes)
 
 leftCodes.sort()
 rightCodes.sort()
